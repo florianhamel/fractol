@@ -3,7 +3,7 @@
 A program coded in C that generates 3 types of fractal : the famous Mandelbrot set, the Julia set with the possibility of choosing the complex parameter z at the start, and the Burning Ship.
 
 If you want to try it, you can do as follow:
-- Use a Linux distribution and install the required packages for the minilibx (see the README in the minilibx-linux directory)
+- Use a Linux distribution and check that you have the necessary packages (see the README in the minilibx-linux directory)
 - Clone this repository
 - Use `make bonus` inside the repository
 - Then use:
