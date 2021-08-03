@@ -7,9 +7,9 @@ If you want to try it, you can do as follow:
 - Clone this repository
 - Use `make bonus` inside the repository
 - Then use:
-  - `./fractol [-m]` for the Mandelbrot set
-  - `./fractol [-j re im]` for the Julia set - let be re and im float numbers in the interval [-4 ; 4]
-  - `./fractol [--bonus]` for the Burning Ship
+  - `./fractol -m` for the Mandelbrot set
+  - `./fractol -j re im` for the Julia set - let be re and im float numbers in the interval [-4 ; 4]
+  - `./fractol --bonus` for the Burning Ship
 
 Feel free to navigate through the fractal by zooming with your mouse wheel and/or moving with your arrow keys.
 
