@@ -13,6 +13,6 @@ If you want to try it, you can do as follow:
 
 Feel free to navigate through the fractal by `zooming` with your mouse wheel and/or `moving` with your arrow keys.
 
-You can also change the `color` by using your space bar at any moment - there is a chill mode by default and a more psychedelic one.
+You can also change the `color` by using your space bar at any moment.
 
 Fractol is a 42 project made with the minilibx (linux version only for this repository).
