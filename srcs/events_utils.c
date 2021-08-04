@@ -6,7 +6,7 @@
 /*   By: fhamel <fhamel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/20 13:42:50 by fhamel            #+#    #+#             */
-/*   Updated: 2021/08/03 14:57:38 by fhamel           ###   ########.fr       */
+/*   Updated: 2021/08/03 17:27:32 by fhamel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 void	zoom_in(t_data *data)
 {
-	data->width /= 4;
-	data->height /= 4;
+	data->width /= 3;
+	data->height /= 3;
 }
 
 void	zoom_out(t_data *data)
 {
-	data->width *= 4;
-	data->height *= 4;
+	data->width *= 3;
+	data->height *= 3;
 }
 
 void	switch_frame(t_mlx_data *mlx_d)

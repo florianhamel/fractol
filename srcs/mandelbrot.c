@@ -6,7 +6,7 @@
 /*   By: fhamel <fhamel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/19 16:51:36 by fhamel            #+#    #+#             */
-/*   Updated: 2021/08/03 15:22:52 by fhamel           ###   ########.fr       */
+/*   Updated: 2021/08/03 17:36:09 by fhamel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,6 +78,7 @@ void	start_mandelbrot(int zoom_mode)
 	data->zoom_re = -0.761574;
 	data->zoom_im = -0.0847596;
 	data->zoom_im = -data->zoom_im;
+	data->color = PSYCHO;
 	mlx_d = init_mlx_data(data);
 	mlx_d->arr_pix = mandelbrot(data);
 	fill_img(mlx_d);
